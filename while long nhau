@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var table = "<table border ='1' cellspacing ='0' cellpadding = '10'>";
+	var x = 1;
+		while (x<=10){
+			var y =1;
+			table += '<tr>'
+		while(y<=10){
+			table +='<td>' + x*y + '</td>';
+			y+=1;
+		}
+		x+=1;
+	}
+	table += '</tr>';
+	document.write(table);
+</script>
+</body>
+</html>
